@@ -75,4 +75,10 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    //coil
+    implementation("io.coil-kt:coil-compose:2.3.0")
+
+    //compose BOM
+    implementation("androidx.compose:compose-bom-beta:2024.10.00")
 }
